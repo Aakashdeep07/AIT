@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/gridTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ff197cc7"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"></Button>
+    <Button
+        android:id="@+id/gridMonday"
+        android:background="#ffe9ad61"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="17sp"></Button>
+    <Button
+        android:id="@+id/gridTuesday"
+        android:layout_width="100dp"
+        android:background="#d9d5dc"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="17sp"></Button>
+    <Button
+        android:id="@+id/gridWednesday"
+        android:background="#ffe9ad61"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="17sp"></Button>
+    <Button
+        android:id="@+id/gridThursday"
+        android:background="#d9d5dc"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="17sp"></Button>
+    <Button
+        android:id="@+id/gridFriday"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ffe9ad61"
+        android:layout_gravity="center"
+        android:textSize="17sp"></Button>
+
+</LinearLayout>

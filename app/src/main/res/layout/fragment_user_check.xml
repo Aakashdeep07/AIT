@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userCheck"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center">
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/inButton"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@drawable/bg"
+            android:text="SIGN IN"
+            android:fontFamily="@font/exo2_medium"
+            android:textSize="17sp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/button"
+            android:textColor="@drawable/bg"
+            android:id="@+id/upButton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:fontFamily="@font/exo2_medium" />
+    </LinearLayout>
+</FrameLayout>

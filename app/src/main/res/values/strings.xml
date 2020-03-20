@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AIT</string>
+    <string name="branch">Select Branch</string>
+    <string-array name="branch_array">
+        <item>BCA</item>
+        <item>B VOC</item>
+        <item>DIPLOMA</item>
+    </string-array>
+    <string name="semester">Select Semester</string>
+    <string-array name="semester_array">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
